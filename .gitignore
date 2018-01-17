@@ -1,7 +1,5 @@
-target
-*.iml
-*.idea
 *.class
-*.idea
+*.idea/
 *.jar
 *.out
+*.target/
