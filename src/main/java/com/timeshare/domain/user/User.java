@@ -1,4 +1,4 @@
-package com.timeshare.domain;
+package com.timeshare.domain.user;
 
 /**
  * Created by tayfer01 on 1/17/2018.
@@ -46,7 +46,4 @@ public class User {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
 }

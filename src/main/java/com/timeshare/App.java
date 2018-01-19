@@ -1,15 +1,18 @@
 package com.timeshare;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.timeshare.utils.mysql.EstablishConnection;
+
 /**
  * Hello world!
  *
  */
 
-@SpringBootApplication
+//@SpringBootApplication
 public class App {
     public static void main( String[] args ) {
-        SpringApplication.run(App.class, args);
+        EstablishConnection establishConnection = new EstablishConnection();
+        establishConnection.conn();
+
+        //SpringApplication.run(App.class, args);
     }
 }

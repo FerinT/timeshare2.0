@@ -1,2 +1,3 @@
 # timeshare2.0
-timeshare with different technology 
+
+using Java with a simple mysql database
